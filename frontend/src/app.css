@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  position: absolute;
+  top: calc(50% - 10px - 1em); /* Adjusted to 10px above the p text */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; /* Removes default margin */
+  color: darkblue; /* Set color to dark blue */
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%); /* Moved p text down by 50% */
+  margin: 0; /* Removes default margin */
+}

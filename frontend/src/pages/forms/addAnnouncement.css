@@ -1,0 +1,42 @@
+/* addAnnouncement.css */
+
+.announcement-container {
+    margin: 20px auto; /* Set margin auto to horizontally center */
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* Set desired width */
+    max-width: 600px; /* Set maximum width */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 100px;
+}
+
+.announcement-form-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.announcement-form-control {
+    width: 80%; /* Adjusted width */
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Disable resizing */
+}
+
+.announcement-btn-submit {
+    margin-bottom: 40px;
+    background-color: #033e7c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.announcement-btn-submit:hover {
+    background-color: #0056b3;
+}

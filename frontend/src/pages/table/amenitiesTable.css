@@ -1,0 +1,55 @@
+/* amenitiesTable.css */
+
+.amenitiesTable-container {
+    display: flex;
+    justify-content: center; /* Center-align the container horizontally */
+}
+
+.amenitiesTable-card {
+    width: 80%; /* Adjust the width of the card */
+    max-width: 600px; /* Set maximum width */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+    margin: 100px auto 0; /* Center-align the card horizontally and set margin 100px from the top */
+}
+
+.amenitiesTable-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.amenitiesTable-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.amenitiesTable-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.amenitiesTable-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.amenitiesTable-table th,
+.amenitiesTable-table td {
+    text-align: center;
+    padding: 8px;
+    text-align: left;
+}
+
+.amenitiesTable-table th {
+    background-color: #f2f2f2;
+}
+
+.amenitiesTable-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.amenitiesTable-table tbody tr:hover {
+    background-color: #e9e9e9;
+}

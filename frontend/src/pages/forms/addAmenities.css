@@ -1,0 +1,40 @@
+/* addAmenities.css */
+
+.amenities-container {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally at the center */
+    margin-top: 100px;
+}
+  
+.amenities-form-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.amenities-form-control {
+    width: 30%; /* Adjusted width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+.amenities-btn-submit {
+    background-color: #003061;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 50px;
+}
+  
+.amenities-btn-submit:hover {
+    background-color: #0056b3;
+}

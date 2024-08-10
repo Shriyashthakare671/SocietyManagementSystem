@@ -1,0 +1,139 @@
+/* ownerHome.css */
+
+.owner-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 60px;
+}
+
+.owner-home-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.owner-card {
+    /* Light gray background */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    width: 80%; /* Set width to 80% of the parent container */
+    max-width: 600px; /* Set maximum width */
+}
+
+.owner-card p {
+    font-size: 16px; /* Set font size for the paragraphs */
+    margin-bottom: 8px; /* Add margin between paragraphs */
+    color: #333; /* Dark text color */
+    padding: 8px;
+}
+
+.owner-card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; /* Add margin for spacing between cards */
+}
+
+.owner-card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; /* Add margin for spacing between cards */
+}
+
+.owner-card2 p,
+.owner-card3 p {
+    font-size: 16px; /* Set font size for the paragraphs */
+    margin-bottom: 8px; /* Add margin between paragraphs */
+    color: #333; /* Dark text color */
+    padding: 8px;
+    text-align: center; /* Center-align the text */
+}
+
+.owner-card-row {
+    display: flex;
+    justify-content: center;
+}
+
+.owner-card2 img {
+    padding: 25px;
+    margin: 50px;
+    margin-top: 10px;
+    width: 200px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.owner-card3 img {
+    margin: 50px;
+    margin-top: 10px;
+    width: 250px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.society-rules {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rules-container {
+    border-left: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.rule {
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.rule-title {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border: 2px solid #007bff;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.rule-content {
+    font-size: 0.95em;
+    color: #555;
+    text-align: center;
+}

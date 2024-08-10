@@ -1,0 +1,73 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    padding: 5px;
+}
+
+.login-form {
+    width: 300px;
+    min-height: auto; /* Automatically adjust height based on content */
+    max-height: 80vh; /* Set maximum height to 80% of viewport height */
+    overflow-y: auto; /* Add vertical scroll if content exceeds maximum height */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-control {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea.login-form-control {
+    height: 80px;
+}
+
+.login-btn-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn-submit:hover {
+    background-color: #001a33;
+}
+
+.login-form label {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.login-form-label {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.login-form-h1 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+

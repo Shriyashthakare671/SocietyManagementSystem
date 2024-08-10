@@ -1,0 +1,28 @@
+.onwerDashboard {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .container {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .sidebar {
+    width: 250px; /* Set a fixed width for the sidebar */
+    height: 100vh;
+    background-color: rgb(251, 251, 255);
+    position: fixed;
+    top: 0;
+    left: 0; /* Position the sidebar to the left */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content to grow to fill available space */
+    padding: 50px;
+    margin-left: 250px; /* Add margin to avoid content being hidden behind the sidebar */
+  }
+  
+  /* Adjust table cell size */
+  .MuiTableCell-root {
+    padding: 8px 16px; /* Adjust padding as needed */
+  }
+  

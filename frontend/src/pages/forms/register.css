@@ -1,0 +1,80 @@
+.register-society-container,
+.register-secretary-container,
+.register-owner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    padding: 5px;
+}
+
+.register-society-form,
+.register-secretary-form,
+.register-owner-form {
+    width: 300px;
+    min-height: auto; /* Automatically adjust height based on content */
+    max-height: 80vh; /* Set maximum height to 80% of viewport height */
+    overflow-y: auto; /* Add vertical scroll if content exceeds maximum height */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.register-form-group,
+.register-secretary-form-group,
+.register-owner-form-group {
+    margin-bottom: 20px;
+}
+
+.register-form-control,
+.register-secretary-form-control,
+.register-owner-form-control {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea.register-form-control,
+textarea.register-secretary-form-control,
+textarea.register-owner-form-control {
+    height: 80px;
+}
+
+.register-btn-submit,
+.register-secretary-btn-submit,
+.register-owner-btn-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn-submit:hover,
+.register-secretary-btn-submit:hover,
+.register-owner-btn-submit:hover {
+    background-color: #001a33;
+}
+
+.register-society-form label,
+.register-secretary-form label,
+.register-owner-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2.register-form-label {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}

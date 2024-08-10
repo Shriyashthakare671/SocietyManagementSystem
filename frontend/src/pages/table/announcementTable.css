@@ -1,0 +1,53 @@
+/* announcementTable.css */
+
+.announcementTable-card {
+    width: 80%; /* Adjust the width of the card */
+    max-width: 600px; /* Set maximum width */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+    margin: 100px auto 0; /* Center-align the card horizontally and set margin 100px from the top */
+}
+
+.announcementTable-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.announcementTable-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #970000;
+}
+
+.announcementTable-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.announcementTable-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.announcementTable-table th,
+.announcementTable-table td {
+    text-align: center;
+    padding: 15px;
+    text-align: left;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.announcementTable-table th {
+    color: darkblue;
+    background-color: #f2f2f2;
+}
+
+.announcementTable-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.announcementTable-table tbody tr:hover {
+    background-color: #ffffff;
+}

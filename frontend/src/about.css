@@ -1,0 +1,33 @@
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7; /* Example background color */
+  padding: 20px;
+}
+
+.about-content {
+  text-align: center;
+  max-width: 600px; /* Example max width */
+  margin-top: 20px; /* Example margin top */
+}
+
+.about-content p {
+  text-align: center;
+  font-size: 18px; /* Example font size */
+  line-height: 1.6; /* Example line height */
+}
+
+.about-content p br {
+  text-align: center;
+  display: none; /* Hide line breaks */
+  margin: 100px;
+}
+
+.about-container h4 {
+  color: darkblue; /* Set color to dark blue */
+}
