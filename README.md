@@ -20,7 +20,7 @@ for database we have ued MYSql to store our society, secretary, owner and other 
 for the backend we have choosen ExpressJs, NodeJs. NodeJS Is open source , cross platform JS
 runtime environment. Backend APIs it handle routing and CORS is used to restrict resources on a
 web server based on the origin of the request. 
-# For Security we have use JsonWebToken And SHA256 Hashing algorithum. 
+# For Security we have use JsonWebToken And SHA256 Hashing algorithum.
 CryptoJS is used to handle cryptographic operations such as hashing
 and encryption.
 
