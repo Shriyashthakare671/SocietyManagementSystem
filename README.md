@@ -51,9 +51,9 @@ and database. design modules of the project related to society managment, Homepa
 development, Admin Owner Dashboard development.
 
 
-*Run The WebPage - 
-Backend - ( Using NodeJS )
-   - node server.js
+# Run The WebPage - 
+   # Backend - ( Using NodeJS )
+      - node server.js
 
-Frontend -  ( Using ReactJS )
-   - npm start
+   # Frontend -  ( Using ReactJS )
+      - npm start
